@@ -13,7 +13,7 @@ public class App
         double euro = input.nextDouble();
         System.out.println("What is the exchange rate?");
         double exchange = input.nextDouble();
-        double rate = exchange/euro;
+        double rate = exchange*euro;
         System.out.println( euro + " euros at an exchange rate of " + exchange + " is \n" + rate + " U.S. dollars.");
     }
 }
